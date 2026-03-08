@@ -81,6 +81,8 @@ background:rgba(255,255,255,0.1);
 max-width:500px;
 }
 
+/* STAR LAYERS */
+
 .stars,
 .stars2,
 .stars3{
@@ -94,7 +96,11 @@ z-index:0;
 transition:opacity 2s ease, filter 2s ease;
 }
 
+/* SMALL STARS */
+
 .stars{
+width:1px;
+height:1px;
 background:transparent;
 box-shadow:
 100px 200px white,
@@ -110,7 +116,11 @@ box-shadow:
 animation:moveStars 200s linear infinite;
 }
 
+/* MEDIUM STARS */
+
 .stars2{
+width:2px;
+height:2px;
 background:transparent;
 box-shadow:
 150px 300px #cbd5f5,
@@ -122,7 +132,11 @@ box-shadow:
 animation:moveStars 300s linear infinite;
 }
 
+/* LARGE STARS */
+
 .stars3{
+width:3px;
+height:3px;
 background:transparent;
 box-shadow:
 250px 500px #fff,
@@ -140,6 +154,8 @@ to{
 transform:translateY(-2000px);
 }
 }
+
+/* MOOD SKY CHANGES */
 
 .app.exhausted .stars,
 .app.exhausted .stars2,
